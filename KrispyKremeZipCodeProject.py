@@ -74,7 +74,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 #makes it so that the user can't see a web page being opened
 
-KrispyKremeWebPage = webdriver.Chrome(r"C:\Users\aarya\Desktop\chromedriver.exe", options = options)
+KrispyKremeWebPage = webdriver.Chrome(r"YOUR PATH TO CHROMEDRIVER", options = options)
 #The address will be changed for you to wherever your chromedriver.exe is
 KrispyKremeWebPage.implicitly_wait(30)
 KrispyKremeWebPage.get(search_url_kk_complete)
